@@ -1,5 +1,38 @@
-/* Custom active link colors */
-.active-home {
+.hero {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-image: url('../images/restaurant.webp');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center center; /* Ensures the image is centered */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero .btn {
+    background-color: #ff5722;
+    border: none;
+  }
+  
+  .hero .btn:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Custom active link colors */
+  .active-home {
     background-color: #ffcc00 !important;
     border-radius: 5px;
   }

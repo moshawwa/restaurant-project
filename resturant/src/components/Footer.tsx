@@ -5,12 +5,8 @@ const Footer: React.FC = () => {
     <footer className="bg-dark text-white text-center py-3">
       <div className="container">
         <p>
-          © {new Date().getFullYear()} Restaurant Name. All rights reserved.
-        </p>
-        <p>
-          <a href="/contact" className="text-white text-decoration-none">
-            Contact Us
-          </a>
+          © {new Date().getFullYear()} AL-Shawwa Restaurant. All rights
+          reserved.
         </p>
       </div>
     </footer>
