@@ -1,0 +1,21 @@
+/* Custom active link colors */
+.active-home {
+    background-color: #ffcc00 !important;
+    border-radius: 5px;
+  }
+  
+  .active-about {
+    background-color: #4caf50 !important;
+    border-radius: 5px;
+  }
+  
+  .active-menu {
+    background-color: #2196f3 !important;
+    border-radius: 5px;
+  }
+  
+  .active-contact {
+    background-color: #9c27b0 !important;
+    border-radius: 5px;
+  }
+  
