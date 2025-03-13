@@ -5,6 +5,12 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <NavLink className="navbar-brand" to="/">
+          <img
+            width="50"
+            height="50"
+            src="https://img.icons8.com/bubbles/100/food.png"
+            alt="food"
+          />
           AL-Shawwa Restaurant
         </NavLink>
         <button
