@@ -1,5 +1,3 @@
-import React from "react";
-
 type MenuItemProps = {
   name: string;
   description: string;
