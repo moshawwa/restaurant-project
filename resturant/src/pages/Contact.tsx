@@ -103,7 +103,7 @@ const Contact = () => {
     <div className="container py-5">
       <div className="row">
         <div className="col-lg-10 mx-auto">
-          <h2 className="text-center mb-4">Book a Table</h2>
+          <h2 className="text-center mb-4">Contact Us</h2>
           
           {/* Restaurant Information */}
           <div className="card shadow-sm mb-4">
