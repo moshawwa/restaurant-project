@@ -49,32 +49,7 @@ const HeroSection = () => {
         <i className="fas fa-chevron-down fa-2x text-white"></i>
       </div>
 
-      <style>
-        {`
-          @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% {
-              transform: translateY(0);
-            }
-            40% {
-              transform: translateY(-20px);
-            }
-            60% {
-              transform: translateY(-10px);
-            }
-          }
-          .hero-content {
-            max-width: 800px;
-            padding: 20px;
-          }
-          .btn {
-            transition: all 0.3s ease;
-          }
-          .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-          }
-        `}
-      </style>
+     
     </section>
   );
 };

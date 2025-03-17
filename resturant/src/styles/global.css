@@ -22,13 +22,32 @@
     margin-bottom: 30px;
   }
   
-  .hero .btn {
+  /* Unified button styles */
+  .hero .btn,
+  .hero .btn-primary,
+  .hero .btn-outline-light {
+    transition: all 0.3s ease;
+    padding: 12px 30px;
+    font-weight: 600;
+    margin: 0 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
     background-color: #ff5722;
-    border: none;
+    border: 2px solid #ff5722;
+    color: white;
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
   }
   
-  .hero .btn:hover {
-    background-color: #e64a19;
+  .hero .btn:hover,
+  .hero .btn-primary:hover,
+  .hero .btn-outline-light:hover {
+    background-color: white;
+    color: #ff5722;
+    border-color: #ff5722;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 87, 34, 0.5);
   }
   
   /* Custom active link colors */

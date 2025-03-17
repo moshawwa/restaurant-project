@@ -111,14 +111,14 @@ const menuItems = [
     description: "Perfectly grilled chicken with sides",
     price: 12.99,
     image: grilledChickenImg,
-    category: "Poultry",
+    category: "Chicken",
   },
   {
     name: "Chicken Parmesan",
     description: "Breaded chicken topped with marinara and cheese",
     price: 13.99,
     image: chickenParmesanImg,
-    category: "Poultry",
+    category: "Chicken",
   },
 
   // Beef
@@ -198,7 +198,7 @@ const categories = [
   "Soups",
   "Pasta",
   "Fish",
-  "Poultry",
+  "Chicken",
   "Beef",
   "Desserts",
   "Drinks",
@@ -223,8 +223,9 @@ const Menu = () => {
         <MenuList
           items={
             selectedCategory === "All"
-              ? menuItems
+              ? menuItems.map((item, index) => ({...item, id: index + 1}))
               : menuItems.filter((item) => item.category === selectedCategory)
+                        .map((item, index) => ({...item, id: index + 1}))
           }
         />
       </div>

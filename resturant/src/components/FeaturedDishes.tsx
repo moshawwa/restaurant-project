@@ -1,5 +1,5 @@
 
-import {  Row, Col, Card, Button } from "react-bootstrap";
+import {  Row, Col, Card } from "react-bootstrap";
 import grillImg from "../images/Steak.png";
 import pastaImg from "../images/Chicken Parmesan.png";
 import burgerImg from "../images/Fish and Chips.png";
@@ -49,9 +49,6 @@ const FeaturedDishes = () => {
                       <Card.Title>{dish.name}</Card.Title>
                       <Card.Text className="flex-grow-1">{dish.disk}</Card.Text>
                       <Card.Text className="fw-bold text-danger">{dish.price}</Card.Text>
-                      <Button variant="danger" className="w-100">
-                        Order Now
-                      </Button>
                     </Card.Body>
                   </Card>
                 </Col>
