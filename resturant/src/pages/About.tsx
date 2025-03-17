@@ -1,5 +1,3 @@
-
-
 const About = () => {
   return (
     <div className="container py-5">
@@ -39,6 +37,7 @@ const About = () => {
             </div>
           </div>
 
+          {/* Story and Mission Section */}
           <div className="row mb-5">
             <div className="col-md-6 mb-4">
               <div className="card shadow-sm h-100">
@@ -75,6 +74,7 @@ const About = () => {
             </div>
           </div>
 
+          {/* Quality Commitment Section */}
           <div className="card shadow-sm p-4">
             <h4 className="text-center mb-4">Quality Commitment</h4>
             <div className="row g-4">

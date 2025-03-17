@@ -136,6 +136,59 @@ const menuItems = [
     image: steakImg,
     category: "Beef",
   },
+
+  // Desserts
+  {
+    name: "Chocolate Lava Cake",
+    description: "Warm chocolate cake with molten center, served with vanilla ice cream",
+    price: 7.99,
+    image: "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?ixlib=rb-4.0.3",
+    category: "Desserts",
+  },
+  {
+    name: "Tiramisu",
+    description: "Classic Italian dessert with coffee-soaked ladyfingers and mascarpone cream",
+    price: 6.99,
+    image: "https://images.unsplash.com/photo-1542124948-dc391252a940?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Desserts",
+  },
+  {
+    name: "New York Cheesecake",
+    description: "Rich and creamy cheesecake with berry compote and a hint of cinnamon",
+    price: 8.99,
+    image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?ixlib=rb-4.0.3",
+    category: "Desserts",
+  },
+
+  // Drinks
+  {
+    name: "Fresh Lemonade",
+    description: "Freshly squeezed lemonade with mint",
+    price: 3.99,
+    image: "https://images.unsplash.com/photo-1523677011781-c91d1bbe2f9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    category: "Drinks",
+  },
+  {
+    name: "Iced Tea",
+    description: "House-made iced tea with optional lemon",
+    price: 2.99,
+    image: "https://images.unsplash.com/photo-1499638673689-79a0b5115d87?ixlib=rb-4.0.3",
+    category: "Drinks",
+  },
+  {
+    name: "Smoothies",
+    description: "Choice of strawberry, mango, or mixed berry",
+    price: 4.99,
+    image: "https://images.unsplash.com/photo-1505252585461-04db1eb84625?ixlib=rb-4.0.3",
+    category: "Drinks",
+  },
+  {
+    name: "Italian Soda",
+    description: "Sparkling water with your choice of flavored syrup",
+    price: 3.49,
+    image: "https://images.unsplash.com/photo-1558642891-54be180ea339?ixlib=rb-4.0.3",
+    category: "Drinks",
+  },
 ];
 
 const categories = [
@@ -147,6 +200,8 @@ const categories = [
   "Fish",
   "Poultry",
   "Beef",
+  "Desserts",
+  "Drinks",
 ];
 
 const Menu = () => {
